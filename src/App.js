@@ -85,6 +85,10 @@ export default function App() {
                 {" "}
                 World ranking - {person.ranking}{" "}
               </div>
+              <div style={{ fontSize: "smaller" }}>
+                {" "}
+                Country - {person.country}{" "}
+              </div>
             </li>
           ))}
         </ul>
