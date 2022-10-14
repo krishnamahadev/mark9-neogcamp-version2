@@ -4,30 +4,34 @@ import { useState } from "react";
 
 const athDB = {
   javelin: [
-    { name: "Anderson PETERS", ranking: "1" },
-    { name: "Neeraj CHOPRA", ranking: "2" }
+    { name: "Anderson PETERS", ranking: "1", country: "Grenada" },
+    { name: "Neeraj CHOPRA", ranking: "2", country: "India" },
   ],
 
   running: [
     {
       name: "STrayvon BROMELL",
-      ranking: "1"
+      ranking: "1",
+      country: "United States",
     },
     {
       name: "Fred KERLEY",
-      ranking: "2"
-    }
+      ranking: "2",
+      country: "United States",
+    },
   ],
   tennis: [
     {
       name: "Carlos Alcaraz",
-      ranking: "1"
+      ranking: "1",
+      country: "Spain",
     },
     {
       name: "Casper Ruud",
-      ranking: "2"
-    }
-  ]
+      ranking: "2",
+      country: "Norway",
+    },
+  ],
 };
 
 export default function App() {
@@ -53,7 +57,7 @@ export default function App() {
               borderRadius: "0.5rem",
               padding: "0.5rem  1rem",
               border: "1px solid black",
-              margin: "1rem 0.3rem"
+              margin: "1rem 0.3rem",
             }}
           >
             {sport}
@@ -72,7 +76,7 @@ export default function App() {
                 border: "1px solid #D1D5DB",
                 width: "70%",
                 margin: "1rem 0rem",
-                borderRadius: "0.5rem"
+                borderRadius: "0.5rem",
               }}
             >
               {" "}
